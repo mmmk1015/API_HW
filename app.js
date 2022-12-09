@@ -23,8 +23,8 @@ document.search.btn.addEventListener('click', function(e) {
   
 //リクエスト用のURLを生成する
 function createURL( value ) {
-  var API_KEY = '31896139-ccff234a255b6ccdd7504e1be';
-  var baseUrl = 'https://pixabay.com/api/?key=31896139-ccff234a255b6ccdd7504e1be';
+  var API_KEY = 'key';
+  var baseUrl = 'https://pixabay.com/api/?key=key';
   var keyword = '&q=' + encodeURIComponent( value );
   var option = '&orientation=horizontal&per_page=40';
   var URL = baseUrl + keyword + option;
